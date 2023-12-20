@@ -1,0 +1,198 @@
+@media only screen and (max-width: 600px) {
+    #wrapper { padding-left: 0px; text-align: center; }
+   
+        /* Remova a limitação máxima de largura do body */
+        html, body {
+            background: white;
+            max-width: none;
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden; /* Certifique-se de que a margem do body também é zero */
+        }
+    
+        /* Adicione um contêiner principal e defina a largura máxima nele */
+        .container-principal {
+            max-width: 100%; /* Ajuste conforme necessário */
+            margin: auto; /* Centralize o contêiner principal */
+            overflow-x: hidden; /* Evite a barra de rolagem horizontal em telas menores */
+        }
+    
+        nav {
+            padding: 1.5rem 2rem;
+            background: #530285;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    .menu {
+        display: flex;
+    }
+
+    .logo {
+        color: white;
+    }
+
+    .github {
+        margin-right: 10px;
+    }
+
+    a {
+        color: white;
+        margin-left: 10px;
+    }
+
+    .name {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .botão-p,
+    .load {
+        margin-left: 20px;
+    }
+
+    .img-p {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .main-secundario,
+    .main-t {
+        padding: 5rem 2rem;
+    }
+
+    #typing-container {
+        font-family: Montserrat;
+        margin-left: 20px;
+        font-size: 24px;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid #000;
+        display: inline-block;
+        animation: typing 4s steps(30, end), blink-caret 0.75s linear 3s infinite;
+    }
+
+    .quem-sou {
+        color: #f4f4f4;
+        font-size: 10px;
+        font-family: montserrat;
+        margin-bottom: 20px;
+    }
+
+    .ola {
+        color: #c363ff;
+        font-size: 40px;
+        margin-top: 5px;
+        font-family: teko;
+    }
+
+    .paragrafo-quem {
+        color: #f4f4f4;
+        width: 300px;
+        font-size: 10px;
+    }
+
+    .qm {
+        justify-content: space-between;
+        margin-bottom: 900px;
+    }
+
+    .about-img {
+        max-width: none;
+        width: 300px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+    .main-t {
+        background-color: #ffffff;
+        padding: 5rem 0rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        
+    }
+    
+    .works {
+        font-family: teko;
+        font-size: 30px;
+        color: #a321f3;
+        margin-right: 200px;
+    }
+    
+    .grupo-work {
+        margin-left: 200px;
+        
+    }
+    
+    .awesome {
+        font-family: montserrat;
+        font-size: 10px;
+        margin-left: -200px;
+        margin-bottom: 20px;
+    }
+    
+    .grid-container {
+        background-color: #a321f3;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 8px;
+        padding: 4px 7.5px;
+        max-width: 400px;
+        margin-right: 200px; /* Define margem automática à esquerda e à direita */
+      }
+    
+      .imagem-quadrada {
+        width: 100%;
+        height:100%;
+        
+        object-fit: cover;
+    
+      }
+    
+      .load {
+        background-color: #a321f3;
+            border: none;
+            color: #fff;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 20px;
+            transition: background-color 0.5s ease;
+            margin-right: 200px;
+            margin-top: 20px;
+      }
+      hr {
+        opacity: 100%;
+      }
+
+      footer {
+      padding: 20px 0px;
+      }
+      .num {
+        color: white;
+      }
+      .email {
+        color: white;
+      }
+      .contatos {
+        background: #a321f3;
+        padding: 5.5px 20px;
+        margin-right: 0px;
+      }
+      .contato {
+        color: white;
+        font-family: montserrat;
+        font-size: 15px;
+      }
+}
